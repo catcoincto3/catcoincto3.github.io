@@ -1,0 +1,192 @@
+/* Copyright (c) 2024 by Paweł Zakrzewski (https://codepen.io/pwzkrz/pen/rNMyzLq)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ */
+
+.body2 {
+    width: 294px;
+    height: 147px;
+    background-color: #0052FF;
+    border-radius: 200px 200px 0 0;
+    left: 109.258px;
+    bottom: 0px;
+}
+
+
+
+.body2::before {
+    width: 255.337px;
+    height: 246.735px;
+    background-color: #B3D344;
+    box-shadow: 0 -12px #9CCB4B;
+    border-radius: 50%;
+    left: 18.073px;
+    bottom: 179.345px;
+}
+
+.body2::after {
+    width: 180.55px;
+    height: 180.55px;
+    background-color: #559140;
+    border-radius: 100% 0;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    left: 55.466px;
+    top: -236.481px;
+}
+
+#kermit2 {
+    margin: 20px auto;
+    position: relative;
+    height: 510px;
+    width: 510px;
+    text-align: center;
+    background-color: #E2E790;
+}
+
+#kermit2 div {
+    position: absolute;
+}
+
+#kermit2 div::before,
+#kermit2 div::after {
+    content: "";
+    position: absolute;
+    display: block;
+}
+
+.collar {
+    width: 0;
+    height: 0;
+    border-left: 22.1065px solid transparent;
+    border-right: 22.1065px solid transparent;
+    border-top: 51.284px solid #DAE13A;
+    left: 232.894px;
+    top: 391.184px;
+}
+
+.collar::before {
+    width: 0;
+    height: 0;
+    border-top: 22.1065px solid transparent;
+    border-right: 85.106px solid #DAE13A;
+    border-bottom: 22.1065px solid transparent;
+    top: -86.766px;
+    left: -84.766px;
+}
+
+.collar::after {
+    width: 0;
+    height: 0;
+    border-top: 22.1065px solid transparent;
+    border-left: 85.106px solid #DAE13A;
+    border-bottom: 22.1065px solid transparent;
+    top: -86.766px;
+}
+
+.mainlogo{
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mouth2 {
+    width: 92.914px;
+    height: 46.457px;
+    background-color: #F27173;
+    border-radius: 0 0 50px 50px;
+    left: 209.801px;
+    top: 216.768px;
+}
+
+.mouth2::before {
+    width: 255.337px;
+    height: 2px;
+    background-color: #4B823C;
+    left: -82.511px;
+}
+
+.mouth2::after {
+    width: 39.719px;
+    height: 57.997px;
+    background-color: #B3D344;
+    border-radius: 0 0 10px 10px;
+    left: 26.556px;
+    top: 111.942px;
+}
+
+.eyes::before {
+    width: 57.497px;
+    height: 49.997px;
+    background-color: #F9FAEA;
+    box-shadow: 0 -5px 0 5px #B3D344;
+    border-radius: 50%;
+    left: 134.659px;
+    top: 78.516px;
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+}
+
+.eyes::after {
+    width: 57.497px;
+    height: 49.997px;
+    background-color: #F9FAEA;
+    box-shadow: 0 -5px 0 5px #B3D344;
+    border-radius: 50%;
+    top: 78.516px;
+    left: 312.067px;
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    transform: rotate(30deg);
+}
+
+.eye-detail {
+    width: 22.4px;
+    height: 22.4px;
+    background-color: #4B823C;
+    box-shadow: 176px 0 #4B823C;
+    border-radius: 50%;
+    left: 152.16px;
+    top: 92px;
+}
+
+.eye-detail::before {
+    width: 45.11px;
+    height: 13.465px;
+    background-color: #4B823C;
+    border-radius: 23px;
+    left: -10px;
+    top: 4.5px;
+    -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    -ms-transform: rotate(-7deg);
+    -o-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+}
+
+.eye-detail::after {
+    width: 45.11px;
+    height: 13.465px;
+    background-color: #4B823C;
+    border-radius: 23px;
+    left: 165px;
+    top: 5.5px;
+    -webkit-transform: rotate(7deg);
+    -moz-transform: rotate(7deg);
+    -ms-transform: rotate(7deg);
+    -o-transform: rotate(7deg);
+    transform: rotate(7deg);
+}
