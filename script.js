@@ -1,6 +1,6 @@
 "use strict";
 const urls = [
-    './banner.png',
+    './banner2.jpg',
 ];
 function loadImage(url) {
     const image = new Image();
